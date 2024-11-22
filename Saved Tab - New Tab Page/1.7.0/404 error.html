@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 - Страница не найдена</title>
+    <style>
+        body {
+            background: linear-gradient(135deg, #f5af19, #f12711);
+            font-family: 'Arial', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            color: #fff;
+        }
+        .container {
+            text-align: center;
+            position: relative;
+        }
+        .container h1 {
+            font-size: 8rem;
+            margin: 0;
+        }
+        .container h2 {
+            font-size: 2rem;
+            margin: 0;
+        }
+        .container p {
+            margin: 1rem 0;
+            font-size: 1.2rem;
+        }
+        .container a {
+            display: inline-block;
+            margin-top: 1.5rem;
+            padding: 0.75rem 1.5rem;
+            color: #f12711;
+            background: #fff;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+        .container a:hover {
+            background: #f5af19;
+        }
+        .animation img {
+            width: 200px;
+            height: auto;
+            animation: float 2s infinite ease-in-out;
+        }
+        @keyframes float {
+            0% { transform: translateY(0px); }
+            50% { transform: translateY(-20px); }
+            100% { transform: translateY(0px); }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="animation">
+            <img src="https://i.pinimg.com/1200x/85/ad/ee/85adeec53ca9bdeec199eeb0b7eef833.jpg" alt="Style 404">
+        </div>
+        <h1>404</h1>
+        <h2>Страница не найдена</h2>
+        <p>Ведутся раскопки, скоро всё будет на месте!</p>
+        <a href="popup.html">Вернуться на главную</a>
+    </div>
+</body>
+</html>

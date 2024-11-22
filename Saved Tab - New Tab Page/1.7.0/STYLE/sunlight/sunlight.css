@@ -1,0 +1,18 @@
+:root {
+    /* общий стиль */
+    --color: #000;
+    --body-background-color: #FFF;
+    --card-background-color: #FFF;
+    --card-color: var(--color);
+    --card-margin: 40px;
+    --card-padding: 24px;
+    --card-shadows-color: rgba(0,0,0,.5);
+    --card-border-radius: 10px;
+    --icon-width: 106px;
+    --icon-height: 164px;
+    --name-color: var(--color);
+    --name-box-shadow: -30px 0px 20px -20px rgba(255, 255, 255, 1) inset;
+    --scrollbar-width: 10px;
+    --scrollbar-trumb-background-color: rgba(0,0,0,.2);
+    --scrollbar-trumb-background-color-hover: rgba(0,0,0,.3);
+}

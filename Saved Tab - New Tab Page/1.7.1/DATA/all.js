@@ -57,7 +57,7 @@ var array_all = [
     {
         "URL": "https://music.yandex.ru/",
         "NAME": "Яндекс музыка",
-        "ICON": "music.yandex.svg"
+        "ICON": "Yandex_Music_icon_2023.svg"
     },
     {
         "URL": "https://aliexpress.ru/",
@@ -150,13 +150,13 @@ var array_all = [
         "ICON": "itchio.svg"
     },
     {
-        "URL": "#",
-        "NAME": "//ADD//",
+        "URL": "new tab page.html",
+        "NAME": "New Tab Page",
         "ICON": "web_development_maintenance_construction_teamwork.svg"
     },
     {
         "URL": "#",
-        "NAME": "//NEW TAB//",
+        "NAME": "//ADD//",
         "ICON": "web_development_maintenance_construction_teamwork.svg"
     },
     {
@@ -175,4 +175,3 @@ var array_all = [
         "ICON": "404.svg"
     },
 ]
-

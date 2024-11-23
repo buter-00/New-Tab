@@ -247,6 +247,8 @@ a {
 .icon {
     width: var(--icon-width);
     height: var(--icon-height);
+    max-width: 50px;
+    max-height: 45px;
     margin-right: 0px;
     background-repeat: no-repeat;
     background-size: contain;
@@ -255,7 +257,9 @@ a {
 
 .name-container {
     flex-grow: 1;
-    margin-left: 10px; /* Shift card name to the right */
+    margin-left: 10px;
+    max-width: 200px;
+    max-height: 65px;
 }
 
 .name {

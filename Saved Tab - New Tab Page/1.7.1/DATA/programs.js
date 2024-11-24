@@ -96,6 +96,12 @@ var array_program = [
         "URL": "https://discord.com/"
     },
     {
+        "ICON": "DiscordFix.svg",
+        "NAME": "DiscordFix + Youtube",
+        "NOTE": "обход замедления и блокировок в РФ",
+        "URL": "https://drive.google.com/drive/folders/1jLZrnUwWs7dY2QfnNThs1FQtkQXHXT39?usp=sharing"
+    },
+    {
         "ICON": "vencord.png",
         "NAME": "Vencord",
         "NOTE": "это модификация для discord.com, которая добавляет плагины и пользовательские стили, блокирует отслеживание Discord и многое другое !",
@@ -226,6 +232,18 @@ var array_program = [
         "NAME": "EaseUS Data Recovery Wizard",
         "NOTE": "востановление данных с дисков",
         "URL": "https://pixeldrain.com/u/mHS3mVTm"
+    },
+    {
+        "ICON": "Hiddidy.svg",
+        "NAME": "Hiddidy - Windows",
+        "NOTE": "Бесплатные VPN коннекты для v2rayNG/Hiddidy",
+        "URL": "https://drive.google.com/drive/folders/1_SSWN_0NFf3zHVS35QcvyZ0rWaWJmN99?usp=sharing"
+    },
+    {
+        "ICON": "",
+        "NAME": "",
+        "NOTE": "",
+        "URL": "#"
     },
     {
         "ICON": "",

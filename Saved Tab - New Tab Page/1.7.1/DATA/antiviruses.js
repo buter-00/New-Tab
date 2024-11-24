@@ -9,7 +9,7 @@ var array_antiviruses = [
         "ICON": "UnhackMe.png",
         "NAME": "UnhackMe",
         "NOTE": "Удаление вирусов",
-        "URL": "https://drive.google.com/drive/folders/1OSMvwvb4KDbTKOuyegv2nUjtcXmxB1kS?usp=sharing"
+        "URL": "https://drive.google.com/drive/folders/1UYEPg1a-Euat2fOiv2JqYJoYTo4vLnio?usp=sharing"
     },
     {
         "URL": "#",

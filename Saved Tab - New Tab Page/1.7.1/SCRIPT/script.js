@@ -43,6 +43,7 @@ addButtonEvent('codeButton', array_code, "Программирование");
 addButtonEvent('programButton', array_program, "Программы");
 addButtonEvent('extensionsButton', array_extensions, "Расширения");
 addButtonEvent('antivirusesButton', array_antiviruses, "Антивирусы");
+addButtonEvent('androidButton', array_android, "Android");
 addButtonEvent('addSite', [], "//ADD сайт//");
 
 window.onload = function() {

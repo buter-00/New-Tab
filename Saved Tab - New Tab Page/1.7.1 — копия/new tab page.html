@@ -1,59 +1,14 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="New Tab Page">
-    <meta name="theme-color" content="#317EFB">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NEW TABs</title>
-    <link rel="icon" href="icon-128.png" type="image/png">
-    <link rel="stylesheet" href="STYLE/new tab page-style.css">
-    <link rel="stylesheet" href="STYLE/sunlight.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <script defer="defer" src="../SCRIPT/new tab page-script.js"></script>
+    <link href="../STYLE/new tab page-style.css" rel="stylesheet">
 </head>
 <body>
-    <div id="app" data-v-app="">
-        <header>
-            <div class="wrapper">
-                <div class="main-input-box">
-                    <div class="main-input-comp">
-                        <div class="search-type-icon iconfont icon-xiala"></div>
-                        <div class="el-input el-input--small el-input--suffix main-input loaded">
-                            <div class="el-input__wrapper">
-                                <input type="text" class="el-input__inner" placeholder="Please enter and search">
-                            </div>
-                        </div>
-                        <div class="search-icon iconfont icon-sousuo1 change-search-icon"></div>
-                    </div>
-                </div>
-                <button id="allButton">Всё</button>
-                <button id="extensionsButton">Расширения</button>
-                <button id="programButton">Программы</button>
-                <button id="codeButton">Программирование</button>
-                <button id="antivirusesButton">Антивирусы</button>
-                <button id="androidButton">Android</button>
-                <button id="addSite">//ADD сайт//</button>
-            </div>
-        </header>
-        <div class="cluster wrapper"></div>
-        <footer>
-        </footer>
-    </div>
-    <!-- Вкладки -->
-    <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
-    <script type="text/javascript" src="DATA/all.js"></script>
-    <script type="text/javascript" src="DATA/android.js"></script>
-    <script type="text/javascript" src="DATA/antiviruses.js"></script>
-    <script type="text/javascript" src="DATA/code.js"></script>
-    <script type="text/javascript" src="DATA/programs.js"></script>
-    <script type="text/javascript" src="DATA/extensions.js"></script>
-    <script type="text/javascript" src="SCRIPT/script.js"></script>
-    <script>
-        new Vue({
-            el: '#app',
-            data: {
-                message: 'Hello, Vue.js!'
-            }
-        });
-    </script>
+    <div id="app"></div>
 </body>
 </html>

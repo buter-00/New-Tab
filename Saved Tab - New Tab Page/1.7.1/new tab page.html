@@ -7,12 +7,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NEW TABs</title>
     <link rel="icon" href="icon-128.png" type="image/png">
-    <link rel="stylesheet" href="STYLE/add-style.css">
-    <link rel="stylesheet" href="STYLE/add-sunlight.css">
+    <link rel="stylesheet" href="STYLE/new tab page-style.css">
+    <link rel="stylesheet" href="STYLE/sunlight.css">
 </head>
 <body>
     <header>
         <div class="wrapper">
+            <div class="main-input-box">
+                <div class="main-input-comp">
+                    <div class="search-type-icon iconfont icon-xiala"></div>
+                    <div class="el-input el-input--small el-input--suffix main-input loaded">
+                        <div class="el-input__wrapper">
+                            <input type="text" class="el-input__inner" placeholder="Please enter and search">
+                        </div>
+                    </div>
+                    <div class="search-icon iconfont icon-sousuo1 change-search-icon"></div>
+                </div>
+            </div>
             <button id="allButton">Всё</button>
             <button id="extensionsButton">Расширения</button>
             <button id="programButton">Программы</button>
@@ -22,15 +33,8 @@
             <button id="addSite">//ADD сайт//</button>
         </div>
     </header>
-    <div class="search-container">
-        <form action="https://www.google.com/search" method="get" target="_blank">
-            <input type="text" name="q" placeholder="Search with Google..." required>
-            <button type="submit">Search</button>
-        </form>
-    </div>
     <div class="cluster wrapper"></div>
     <footer>
-        <p>version: 1.7</p>
     </footer>
     <!-- Вкладки -->
     <script type="text/javascript" src="DATA/all.js"></script>

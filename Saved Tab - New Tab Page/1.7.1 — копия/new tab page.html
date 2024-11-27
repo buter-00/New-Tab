@@ -2,19 +2,29 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="New Tab">
+    <meta name="description" content="New Tab Page">
     <meta name="theme-color" content="#317EFB">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEW TABs</title>
     <link rel="icon" href="icon-128.png" type="image/png">
-    <link rel="stylesheet" href="STYLE/oldStyle.css">
+    <link rel="stylesheet" href="STYLE/new tab page-style.css">
     <link rel="stylesheet" href="STYLE/sunlight.css">
-    <link rel="stylesheet" href="STYLE/popup-style.css">
 </head>
 <body>
-    <header class="header">
-        <div class="featured-title">
-            <img src="icon-128.png" alt="Icon" class="featured-icon"> FEATURED
-            <div class="dropdown">
+    <div id="app" data-v-app="">
+        <header>
+            <div class="wrapper">
+                <div class="main-input-box">
+                    <div class="main-input-comp">
+                        <div class="search-type-icon iconfont icon-xiala"></div>
+                        <div class="el-input el-input--small el-input--suffix main-input loaded">
+                            <div class="el-input__wrapper">
+                                <input type="text" class="el-input__inner" placeholder="Please enter and search">
+                            </div>
+                        </div>
+                        <div class="search-icon iconfont icon-sousuo1 change-search-icon"></div>
+                    </div>
+                </div>
                 <button id="allButton">Всё</button>
                 <button id="extensionsButton">Расширения</button>
                 <button id="programButton">Программы</button>
@@ -23,16 +33,13 @@
                 <button id="androidButton">Android</button>
                 <button id="addSite">//ADD сайт//</button>
             </div>
-        </div>
-    </header>
-    <div class="cluster wrapper">
-        <!-- Контент новой вкладки будет здесь -->
+        </header>
+        <div class="cluster wrapper"></div>
+        <footer>
+        </footer>
     </div>
-    <hr>
-    <footer>
-        <p>version: 1.7.1</p> <!-- Обновлено до версии 1.7 -->
-    </footer>
     <!-- Вкладки -->
+    <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
     <script type="text/javascript" src="DATA/all.js"></script>
     <script type="text/javascript" src="DATA/android.js"></script>
     <script type="text/javascript" src="DATA/antiviruses.js"></script>
@@ -40,5 +47,13 @@
     <script type="text/javascript" src="DATA/programs.js"></script>
     <script type="text/javascript" src="DATA/extensions.js"></script>
     <script type="text/javascript" src="SCRIPT/script.js"></script>
+    <script>
+        new Vue({
+            el: '#app',
+            data: {
+                message: 'Hello, Vue.js!'
+            }
+        });
+    </script>
 </body>
 </html>

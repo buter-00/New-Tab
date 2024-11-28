@@ -1,0 +1,85 @@
+:root {
+    --size: 120px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+object {
+    width: 100%;
+    height: 100%;
+}
+
+a {
+    display: block;
+}
+
+body {
+    background-color: #343434;
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+/* ПОИСКОВАЯ СТРОКА */
+.SEARCH {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+input.search {
+    color: #FFF;
+    height: 34px;
+    background: #232323;
+    border: 1px solid red;
+    box-shadow: 0 1px 3px rgb(23 23 23 / 24%);
+    border-radius: 14px;
+    margin: 0 auto;
+    padding: 10px 12px;
+}
+
+div.CLUSTER1 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 5px 0 0 5px;
+}
+
+div.BOX,
+object {
+    border: 1px solid transparent;
+    cursor: pointer;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    font-size: 13px;
+    color: #FFF;
+    border: 1px solid #0c70de;
+    border-radius: 3px;
+    line-height: normal;
+}
+
+div.BOX:hover {
+    border: 1px solid #FFF;
+}
+
+div.ICON {
+    width: var(--size);
+    height: var(--size);
+    margin: 10px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+div.NAME {
+    width: calc(var(--size) + 20px);
+    padding: 6px 10px;
+    font-size: 1.2em;
+    height: calc(2em);
+    border-top: 1px solid #0c70de;
+    overflow: hidden;
+}

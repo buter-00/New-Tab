@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.2" baseProfile="tiny"
+	 xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" viewBox="0 0 250.7 250.7"
+	 overflow="visible" xml:space="preserve">
+<path fill="#222222" d="M189,0H61.7C27.6,0,0,27.6,0,61.7V189c0,34.1,27.6,61.7,61.7,61.7H189c34.1,0,61.7-27.6,61.7-61.7V61.7
+	C250.7,27.6,223,0,189,0z M66.8,234.8c-28.2,0-51.1-22.9-51.1-51.1c0-28.2,22.9-51.1,51.1-51.1s51.1,22.9,51.1,51.1
+	C117.9,211.9,95,234.8,66.8,234.8z M184.3,234.8c-28.2,0-51.1-22.9-51.1-51.1c0-28.2,22.9-51.1,51.1-51.1
+	c28.2,0,51.1,22.9,51.1,51.1C235.5,211.9,212.6,234.8,184.3,234.8z"/>
+</svg>

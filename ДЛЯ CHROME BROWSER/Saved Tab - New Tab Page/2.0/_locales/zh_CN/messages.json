@@ -1,0 +1,806 @@
+{
+   "24HForecast": {
+      "message": "24H天气预报"
+   },
+   "CloudWallpaper": {
+      "message": "云端壁纸"
+   },
+   "Font": {
+      "message": "字体"
+   },
+   "ImageLink": {
+      "message": "在线链接"
+   },
+   "ImageURL": {
+      "message": "图片地址"
+   },
+   "Input": {
+      "message": "输入"
+   },
+   "Interface": {
+      "message": "界面"
+   },
+   "LocalImages": {
+      "message": "本地图片"
+   },
+   "LoginToUse": {
+      "message": "登录后使用"
+   },
+   "Preview": {
+      "message": "预览"
+   },
+   "Processing": {
+      "message": "正在处理中..."
+   },
+   "UploadDeleteFailure": {
+      "message": "删除壁纸失败"
+   },
+   "UploadExceedFailure": {
+      "message": "上传壁纸数量超过上限"
+   },
+   "UploadImageFailure": {
+      "message": "图片上传失败"
+   },
+   "UploadInitFailure": {
+      "message": "初始化上传失败"
+   },
+   "UploadSyncFailure": {
+      "message": "同步壁纸失败"
+   },
+   "aWord": {
+      "message": "一言"
+   },
+   "aWordSwitchDesc": {
+      "message": "每天一句精美语句，让您更热爱生活"
+   },
+   "about": {
+      "message": "关于"
+   },
+   "add": {
+      "message": "添加"
+   },
+   "addCustomDesc": {
+      "message": "输入网址后会自动获取网站名称和图标，个别网站或国外网站可能会获取不成功"
+   },
+   "addIcon": {
+      "message": "添加图标"
+   },
+   "addNote": {
+      "message": "添加笔记"
+   },
+   "addSearchNullInfo": {
+      "message": "名称或网址不能为空"
+   },
+   "addSearchRuleInfo": {
+      "message": "网址请包涵占位符{S}"
+   },
+   "addSuccess": {
+      "message": "添加成功"
+   },
+   "addTodo": {
+      "message": "添加待办事项"
+   },
+   "addUrl": {
+      "message": "添加网址"
+   },
+   "all": {
+      "message": "全部"
+   },
+   "background": {
+      "message": "背景"
+   },
+   "backupDesc": {
+      "message": "我们为您保留最多五个节点，只有手动备份才会保留历史节点"
+   },
+   "backupNow": {
+      "message": "立即备份"
+   },
+   "backupSuccess": {
+      "message": "备份成功!"
+   },
+   "backupTitle": {
+      "message": "历史备份节点"
+   },
+   "backupsBtn": {
+      "message": "立即备份"
+   },
+   "bgCenter": {
+      "message": "壁纸中心"
+   },
+   "bgColor": {
+      "message": "背景颜色"
+   },
+   "bgSetting": {
+      "message": "壁纸设置"
+   },
+   "bookmarks": {
+      "message": "书签管理"
+   },
+   "bookmarksBar": {
+      "message": "书签管理"
+   },
+   "bottomBar": {
+      "message": "快捷启动"
+   },
+   "bottomIcons": {
+      "message": "快捷图标栏"
+   },
+   "bottomIconsLen": {
+      "message": "显示数量"
+   },
+   "bottomIconsSize": {
+      "message": "显示尺寸"
+   },
+   "calendar": {
+      "message": "日历"
+   },
+   "calendarSwitchDesc": {
+      "message": "支持查询农历、节假日等信息"
+   },
+   "cancel": {
+      "message": "取消"
+   },
+   "clickMoreInfo": {
+      "message": "请勿频繁点击！"
+   },
+   "colorTheme": {
+      "message": "配色方案"
+   },
+   "columnGap": {
+      "message": "列间距"
+   },
+   "completed": {
+      "message": "已完成"
+   },
+   "confirm": {
+      "message": "确认"
+   },
+   "confirmAdd": {
+      "message": "确认添加"
+   },
+   "confirmDeletion": {
+      "message": "确认删除？"
+   },
+   "confirmEdit": {
+      "message": "确认编辑"
+   },
+   "copyFailed": {
+      "message": "复制失败"
+   },
+   "copySuccess": {
+      "message": "复制成功"
+   },
+   "custom": {
+      "message": "自定义"
+   },
+   "darkMode": {
+      "message": "深色模式"
+   },
+   "dateSize": {
+      "message": "日期缩放"
+   },
+   "delSuccess": {
+      "message": "删除成功"
+   },
+   "deleteCompleted": {
+      "message": "删除已完成"
+   },
+   "deleteGroupInfo": {
+      "message": "此操作将会删除 {0} 分组下的所有内容, 确认删除吗?"
+   },
+   "deleteHistory": {
+      "message": "从历史记录中移除"
+   },
+   "description": {
+      "message": "Aurora 自由定义您的浏览器标签页，随心添加网站图标，高清精美壁纸，快速访问书签、待办事项、天气和历史记录"
+   },
+   "display": {
+      "message": "外观显示"
+   },
+   "displayDesc": {
+      "message": "调整图标，搜索栏，时间日期外观显示"
+   },
+   "doneLabel": {
+      "message": "立即体验"
+   },
+   "downloadBar": {
+      "message": "下载管理"
+   },
+   "downloadBg": {
+      "message": "下载壁纸"
+   },
+   "dynamicBg": {
+      "message": "动态壁纸"
+   },
+   "edgeBarSetting": {
+      "message": "侧边栏设置"
+   },
+   "editBackups": {
+      "message": "管理历史备份"
+   },
+   "editSuccess": {
+      "message": "修改成功"
+   },
+   "emailInfo": {
+      "message": "请输入您的邮箱"
+   },
+   "emailNull": {
+      "message": "邮箱为空"
+   },
+   "emailRuleError": {
+      "message": "邮箱格式错误"
+   },
+   "enjoyLife": {
+      "message": "享受生活"
+   },
+   "errorFile": {
+      "message": "错误文件"
+   },
+   "exp": {
+      "message": "上传"
+   },
+   "expConfigInfo": {
+      "message": "导出配置内容？"
+   },
+   "expFunc": {
+      "message": "导出配置"
+   },
+   "ext_name": {
+      "message": "Aurora：高效而舒适的新标签页"
+   },
+   "extensionBar": {
+      "message": "扩展管理"
+   },
+   "fileInputClick": {
+      "message": "点击此处上传本地图片"
+   },
+   "filter": {
+      "message": "模糊度"
+   },
+   "fiveStar": {
+      "message": "五星好评"
+   },
+   "forgetDesc": {
+      "message": "此功能会重新设置您的Aurora密码"
+   },
+   "forgetPassword": {
+      "message": "忘记密码"
+   },
+   "forgetSuccess": {
+      "message": "修改成功"
+   },
+   "forgetTitle": {
+      "message": "找回Aurora密码"
+   },
+   "getSuccess": {
+      "message": "已发送！"
+   },
+   "getToken": {
+      "message": "获取验证码"
+   },
+   "goalsForToday": {
+      "message": "今天的目标"
+   },
+   "group": {
+      "message": "分组"
+   },
+   "guidanceNavigation": {
+      "message": "底部导航栏，快速启动应用"
+   },
+   "guidanceSearch": {
+      "message": "搜索种类丰富，全面满足你的要求"
+   },
+   "guidanceSetting": {
+      "message": "丰富的自定义设置，让你创建独一无二的界面"
+   },
+   "guidanceStart": {
+      "message": "立即体验"
+   },
+   "guidanceTheme": {
+      "message": "双击桌面，快速切换主题"
+   },
+   "guidanceWallpaper": {
+      "message": "海量壁纸，任意切换"
+   },
+   "haveAccount": {
+      "message": "已有帐户？"
+   },
+   "height": {
+      "message": "高度"
+   },
+   "hide": {
+      "message": "自动隐藏"
+   },
+   "history": {
+      "message": "历史记录"
+   },
+   "historyBar": {
+      "message": "历史记录"
+   },
+   "humidity": {
+      "message": "相对湿度"
+   },
+   "icon": {
+      "message": "图标"
+   },
+   "iconAndInput": {
+      "message": "图标和搜索框"
+   },
+   "iconConfig": {
+      "message": "系统"
+   },
+   "iconMode": {
+      "message": "图标模式"
+   },
+   "iconPreview": {
+      "message": "图标预览"
+   },
+   "iconRadius": {
+      "message": "图标圆角"
+   },
+   "iconSetting": {
+      "message": "图标设置"
+   },
+   "iconShadow": {
+      "message": "图标阴影"
+   },
+   "iconSize": {
+      "message": "图标大小"
+   },
+   "iconSysConfig": {
+      "message": "图标+系统"
+   },
+   "iconText": {
+      "message": "图标文字"
+   },
+   "image": {
+      "message": "图片"
+   },
+   "imgUpperLimit": {
+      "message": "图片上传数量达到上限！"
+   },
+   "imp": {
+      "message": "重要"
+   },
+   "impFunc": {
+      "message": "导入配置"
+   },
+   "indices": {
+      "message": "生活指数"
+   },
+   "inputCityName": {
+      "message": "输入查询的城市"
+   },
+   "inputSetting": {
+      "message": "搜索栏设置"
+   },
+   "keepAtLeastOne": {
+      "message": "请至少保留一个分组!"
+   },
+   "lastUpdated": {
+      "message": "上次更新时间"
+   },
+   "layout": {
+      "message": "布局"
+   },
+   "layoutBar": {
+      "message": "切换视图"
+   },
+   "layoutDesc": {
+      "message": "主视图选择，侧边栏调整"
+   },
+   "layoutSetting": {
+      "message": "布局设置"
+   },
+   "layoutText": {
+      "message": "退出登录"
+   },
+   "left": {
+      "message": "左侧"
+   },
+   "localBg": {
+      "message": "本地壁纸"
+   },
+   "locale": {
+      "message": "zh"
+   },
+   "login": {
+      "message": "登录"
+   },
+   "loginBtn": {
+      "message": "登录/注册"
+   },
+   "loginDesc": {
+      "message": "登录Aurora账户，享多端数据同步，资料永不丢失"
+   },
+   "loginError": {
+      "message": "账号或密码错误"
+   },
+   "loginInfo": {
+      "message": "登录可享受多端同步，让您的资料永不丢失"
+   },
+   "loginNow": {
+      "message": "立即登录"
+   },
+   "loginSuccess": {
+      "message": "登录成功"
+   },
+   "loginTimeout": {
+      "message": "登录失效"
+   },
+   "loginTitle": {
+      "message": "欢迎使用Aurora"
+   },
+   "mainTheme": {
+      "message": "主题"
+   },
+   "mainViewSetting": {
+      "message": "主视图设置"
+   },
+   "marginBottom": {
+      "message": "底部空间"
+   },
+   "maxWidth": {
+      "message": "最大宽度"
+   },
+   "menuDelete": {
+      "message": "删除"
+   },
+   "menuDeleteMore": {
+      "message": "批量删除"
+   },
+   "menuEdit": {
+      "message": "编辑"
+   },
+   "menuOpenTab": {
+      "message": "新标签页打开"
+   },
+   "myAccount": {
+      "message": "我的账户"
+   },
+   "name": {
+      "message": "名称"
+   },
+   "nameInfo": {
+      "message": "请输入您的用户名"
+   },
+   "nameNoneInfo": {
+      "message": "名称不能为空"
+   },
+   "nameNull": {
+      "message": "用户名为空"
+   },
+   "nameRuleError": {
+      "message": "仅支持字母、数字_-等2-8字符"
+   },
+   "networkError": {
+      "message": "网络连接错误"
+   },
+   "newPasswordInfo1": {
+      "message": "请输入6-18位新密码"
+   },
+   "newTab": {
+      "message": "新标签打开"
+   },
+   "newTabTitle": {
+      "message": "新标签页"
+   },
+   "nextStep": {
+      "message": "下一步"
+   },
+   "noAccount": {
+      "message": "没有帐户？"
+   },
+   "noEmail": {
+      "message": "无效邮箱！"
+   },
+   "noMoreBottom": {
+      "message": "我也是有底线的"
+   },
+   "none": {
+      "message": "空"
+   },
+   "note": {
+      "message": "笔记"
+   },
+   "noteSwitchDesc": {
+      "message": "随时记录笔记，并能帮您把笔记贴在标签页桌面上,一目了然"
+   },
+   "offIcon": {
+      "message": "官方icon"
+   },
+   "opacity": {
+      "message": "遮罩度"
+   },
+   "pageRefresh": {
+      "message": "激活页面刷新"
+   },
+   "passwordError": {
+      "message": "密码为空"
+   },
+   "passwordError2": {
+      "message": "请确认密码"
+   },
+   "passwordInfo": {
+      "message": "请输入密码"
+   },
+   "passwordInfo1": {
+      "message": "请输入6-18位密码"
+   },
+   "passwordInfo2": {
+      "message": "请确认密码"
+   },
+   "passwordRuleError": {
+      "message": "仅支持字母、数字、#?!@$%^&*-等6-18字符"
+   },
+   "passwordRuleError2": {
+      "message": "两次密码不一致"
+   },
+   "prevStep": {
+      "message": "上一步"
+   },
+   "productFeedback": {
+      "message": "产品反馈"
+   },
+   "radius": {
+      "message": "圆角"
+   },
+   "readSuccess": {
+      "message": "读入成功"
+   },
+   "realTime": {
+      "message": "实时"
+   },
+   "registerDesc": {
+      "message": "注册Aurora账户，享多端数据同步，资料永不丢失"
+   },
+   "registerNow": {
+      "message": "立即注册"
+   },
+   "registerSuccess": {
+      "message": "注册成功"
+   },
+   "remind": {
+      "message": "提醒"
+   },
+   "remindTitle": {
+      "message": "Aurora提醒您"
+   },
+   "rencentUpdate": {
+      "message": "最近更新"
+   },
+   "repeatEmail": {
+      "message": "该邮箱已注册！"
+   },
+   "repeatExpInfo": {
+      "message": "请勿重复上传！"
+   },
+   "reset": {
+      "message": "重置"
+   },
+   "resetSetting": {
+      "message": "恢复默认配置"
+   },
+   "resetSuccess": {
+      "message": "重置成功"
+   },
+   "right": {
+      "message": "右侧"
+   },
+   "rowGap": {
+      "message": "行间距"
+   },
+   "save": {
+      "message": "保存"
+   },
+   "scrollGroup": {
+      "message": "滚动切换分组"
+   },
+   "search": {
+      "message": "搜索"
+   },
+   "searchAddTitle": {
+      "message": "显示名称"
+   },
+   "searchAddTitle2": {
+      "message": "搜索网址"
+   },
+   "searchBookmarks": {
+      "message": "查询书签"
+   },
+   "searchEditDescInfo": {
+      "message": "点击添加您常用的搜索引擎"
+   },
+   "searchEditDescInfo2": {
+      "message": "添加自定义搜索引擎"
+   },
+   "searchEditTitle": {
+      "message": "添加搜索引擎"
+   },
+   "searchHistory": {
+      "message": "搜索历史记录"
+   },
+   "searchHolder": {
+      "message": "请输入内容并搜索"
+   },
+   "searchNamePlaceholder": {
+      "message": "输入搜索引擎名称"
+   },
+   "searchNone": {
+      "message": "对不起，没有搜索到相应结果"
+   },
+   "searchUrl": {
+      "message": "搜索添加的网址"
+   },
+   "searchUrlPlaceholder": {
+      "message": "请使用占位符{S}替换搜索词，例如：https://www.baidu.com/s?wd={S}"
+   },
+   "selectDate": {
+      "message": "请选择时间"
+   },
+   "selectExpFile": {
+      "message": "请选择上传的文件！"
+   },
+   "selectGroup": {
+      "message": "选择分组"
+   },
+   "setBackupError": {
+      "message": "节点有误!"
+   },
+   "setting": {
+      "message": "设置中心"
+   },
+   "showDate": {
+      "message": "显示日期"
+   },
+   "showName": {
+      "message": "显示名称"
+   },
+   "showTime": {
+      "message": "显示时间"
+   },
+   "simpMode": {
+      "message": "极简模式"
+   },
+   "solidBg": {
+      "message": "纯色壁纸"
+   },
+   "solidColor": {
+      "message": "纯色"
+   },
+   "sorry": {
+      "message": "对不起！"
+   },
+   "sorryDesc": {
+      "message": "不支持此类型网址的添加！"
+   },
+   "standardMode": {
+      "message": "标准模式"
+   },
+   "staticBg": {
+      "message": "静态壁纸"
+   },
+   "switchBg": {
+      "message": "切换壁纸"
+   },
+   "sys": {
+      "message": "系统"
+   },
+   "text": {
+      "message": "文字"
+   },
+   "textColor": {
+      "message": "文字颜色"
+   },
+   "textShadow": {
+      "message": "文字阴影"
+   },
+   "textSize": {
+      "message": "文字大小"
+   },
+   "timeDateSetting": {
+      "message": "时间日期设置"
+   },
+   "timeSize": {
+      "message": "时间缩放"
+   },
+   "title": {
+      "message": "标题"
+   },
+   "todo": {
+      "message": "待办事项"
+   },
+   "todoDesc": {
+      "message": "请输入提醒内容"
+   },
+   "todoSwitchDesc": {
+      "message": "有序安排您的任务，让您更轻松的计划每一天"
+   },
+   "tokenError": {
+      "message": "无效验证码"
+   },
+   "tokenInfo": {
+      "message": "请输入6位邮箱验证码"
+   },
+   "tokenNull": {
+      "message": "验证码为空"
+   },
+   "tokenRuleError": {
+      "message": "验证码格式有误"
+   },
+   "unCompleted": {
+      "message": "未完成"
+   },
+   "url": {
+      "message": "网址"
+   },
+   "urlMoreInfo": {
+      "message": "来自该网站的更多内容"
+   },
+   "urlNameNoneInfo": {
+      "message": "网址和名称不能为空"
+   },
+   "urlNone": {
+      "message": "网址不能为空"
+   },
+   "useBackup": {
+      "message": "从此节点恢复"
+   },
+   "user": {
+      "message": "个人中心"
+   },
+   "userDesc": {
+      "message": "注册登录账户，备份数据"
+   },
+   "userFeedback": {
+      "message": "用户评价"
+   },
+   "userFeedbackDesc": {
+      "message": "如果您喜欢Aurora新标签页，请给我打分或者反馈帮助我进行优化。"
+   },
+   "visibility": {
+      "message": "能见度"
+   },
+   "wallpaper": {
+      "message": "壁纸"
+   },
+   "wallpaperDesc": {
+      "message": "选择您喜欢的壁纸并设置样式"
+   },
+   "wallpaperSwitch": {
+      "message": "壁纸切换"
+   },
+   "wallpaperSwitch12Hour": {
+      "message": "每隔12小时更换"
+   },
+   "wallpaperSwitch1Hour": {
+      "message": "每隔1小时更换"
+   },
+   "wallpaperSwitch24Hour": {
+      "message": "每隔24小时更换"
+   },
+   "wallpaperSwitch2Hour": {
+      "message": "每隔2小时更换"
+   },
+   "wallpaperSwitch6Hour": {
+      "message": "每隔6小时更换"
+   },
+   "wallpaperSwitchNone": {
+      "message": "不自动切换"
+   },
+   "weather": {
+      "message": "天气"
+   },
+   "weatherSwitchDesc": {
+      "message": "为您提供涵盖全球城市的天气预报，提醒您及时做应对天气变化"
+   },
+   "widget": {
+      "message": "组件"
+   },
+   "widgetDesc": {
+      "message": "常用组件随意添加"
+   },
+   "width": {
+      "message": "宽度"
+   }
+}

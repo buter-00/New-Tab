@@ -2,7 +2,7 @@
     --color-light: #000;
     --color-dark: #FFF;
     --body-background-color-light: #FFF; /* Unified background color */
-    --body-background-color-dark: #202020; /* Dark mode background */
+    --body-background-color-dark: #212121; /* Dark mode background */
     --cluster-width: 1600px; /* Updated cluster width */
     --card-background-color-light: #FFF;
     --card-background-color-dark: #333333;
@@ -57,7 +57,7 @@ body.dark-theme {
 }
 
 body.light-theme {
-    background-color: var(--body-background-color-light);
+    background-color: #212121;
     color: var(--color-light);
 }
 
@@ -199,14 +199,14 @@ header:hover .dropdown,
     font-size: 0.85em; /* Slightly larger font size */
     cursor: pointer;
     border: none;
-    background-color: #afafaf6e; /* Neutral color for buttons */
+    background-color: #d2cdcd;
     color: #000000; /* Text color for contrast */
     white-space: nowrap; /* Prevent text from wrapping */
     margin: 5px; /* Space between buttons */
     width: calc(100% - 8px); /* Fit buttons within dropdown */
 }
 a {
-    color: #444444;
+    color: #8c8c8c;
     text-decoration: none;
 }
 

@@ -333,6 +333,11 @@ footer {
     text-align: center;
     color: #686868;
     display: flex;
+}
+
+.featured-title span {
+    font-size: 0.8em; /* Size for the span element */
+}
 
      /* Align to left */
     margin-left: 20px; /* Left margin for red line effect */
@@ -349,4 +354,11 @@ header {
 /* Ensure the dropdown aligns to the right side */
 .dropdown-menu-right {
     right: 0;
+}
+.hidden {
+    display: none;
+}
+
+.header:hover .dropdown {
+    display: block;
 }

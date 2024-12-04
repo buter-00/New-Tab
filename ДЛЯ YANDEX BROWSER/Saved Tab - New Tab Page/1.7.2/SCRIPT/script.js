@@ -1,5 +1,6 @@
 // Блок отрисовки вкладок
 var cluster = document.getElementsByClassName("cluster")[0];
+var featuredTitle = document.querySelector(".featured-title span");
 
 // Загружаемая категория вкладок по умолчанию
 code(array_all, "Всё");
@@ -24,6 +25,14 @@ function code(category, categoryName) {
                 </a>`;
         }
     });
+
+    updateHeaderTitle(categoryName.toUpperCase());
+}
+
+function updateHeaderTitle(title) {
+    if (featuredTitle) {
+        featuredTitle.textContent = title;
+    }
 }
 
 // Добавим кнопки с событиями
@@ -34,6 +43,8 @@ function addButtonEvent(buttonId, category, categoryName) {
             window.location.href = '404 error.html';
         } else {
             code(category, categoryName.replace("//", ""));
+            toggleClusterVisibility(true); // Показываем cluster после выбора категории
+            hideDropdown(); // Скрываем dropdown после выбора категории
         }
     });
 }
@@ -55,14 +66,35 @@ window.onload = function() {
 };
 
 document.addEventListener('DOMContentLoaded', function() {
-    const dropdowns = document.querySelectorAll('.dropdown');
-    const observer = new MutationObserver(function() {
-        dropdowns.forEach(dropdown => {
-            dropdown.style.backgroundColor = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'rgba(32, 32, 32, 0.0)' : 'rgba(255, 255, 255, 0.0)';
+    const header = document.querySelector('.header');
+    const dropdown = document.querySelector('.dropdown');
+
+    if (header && dropdown) {
+        header.addEventListener('mouseenter', function() {
+            dropdown.style.display = 'block'; // Показываем dropdown при наведении на header
+            toggleClusterVisibility(false); // Скрываем cluster при наведении на header
         });
-    });
-    observer.observe(document.body, { attributes: true, attributeFilter: ['class'] });
+
+        dropdown.addEventListener('mouseleave', function() {
+            dropdown.style.display = 'none'; // Скрываем dropdown при уходе курсора с header
+            toggleClusterVisibility(true); // Показываем cluster при уходе курсора с dropdown
+        });
+    }
 });
+
+function toggleClusterVisibility(show) {
+    const cluster = document.querySelector('.cluster.wrapper');
+    if (cluster) {
+        cluster.style.display = show ? 'flex' : 'none';
+    }
+}
+
+function hideDropdown() {
+    const dropdown = document.querySelector('.dropdown');
+    if (dropdown) {
+        dropdown.style.display = 'none';
+    }
+}
 
 // Вывод времени полной отрисовки страницы
 var loadTime = (window.performance.timing.domContentLoadedEventEnd - window.performance.timing.navigationStart) / 1000;

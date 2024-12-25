@@ -1,0 +1,86 @@
+body {
+    background: linear-gradient(135deg, #f5af19, #f12711);
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: #fff;
+}
+.container {
+    text-align: center;
+}
+.container h1 {
+    font-size: 8rem;
+    margin: 0;
+}
+.container h2 {
+    font-size: 2rem;
+    margin: 0;
+}
+.container p {
+    margin: 1rem 0;
+    font-size: 1.2rem;
+}
+.container a {
+    display: inline-block;
+    margin-top: 1.5rem;
+    padding: 0.75rem 1.5rem;
+    color: #f12711;
+    background: #fff;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+.container a:hover {
+    background: #f5af19;
+}
+.animation img {
+    width: 200px;
+    height: auto;
+    animation: float 2s infinite ease-in-out;
+}
+@keyframes float {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-20px); }
+    100% { transform: translateY(0px); }
+}
+.dark-theme .snowflakes-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    pointer-events: none;
+    overflow: hidden;
+}
+.snowball-box {
+    pointer-events: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+.snowflakes-box .snowflake {
+    border-radius: 50%;
+    color: #a6e7ff;
+    font-family: FontAwesome;
+    height: 20px;
+    pointer-events: none;
+    position: absolute;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    width: 20px;
+}
+.snowflakes-box .snowflake:first-child {
+    animation: fall-1 11s linear -3s infinite;
+    opacity: 1;
+    transform: translate(47.2803vw, -20px) scale(0.5115) rotate(380deg);
+}
+@keyframes fall-1 {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(100vh); }
+}

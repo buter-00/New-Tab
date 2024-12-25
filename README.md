@@ -1,5 +1,11 @@
 ДАТА ОБНОВЛЕНИЙ Saved Tab - New Tab Page
 
+ДЛЯ CHROME BROWSER version: 2.1 обновление от 25.12.2024
+
+ДЛЯ YANDEX BROWSER version: 1.7.3 обновление от 25.12.2024
+
+==============================================================
+
 ДЛЯ CHROME BROWSER version: 2.0 обновление от 04.12.2024
 
 ДЛЯ YANDEX BROWSER version: 1.7.2 обновление от 04.12.2024

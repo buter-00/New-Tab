@@ -1,0 +1,437 @@
+:root {
+    --color-light: #000;
+    --color-dark: #FFF;
+    --body-background-color-light: #FFF; /* Unified background color */
+    --body-background-color-dark: #212121; /* Dark mode background */
+    --cluster-width: 1600px; /* Updated cluster width */
+    --card-background-color-light: #FFF;
+    --card-background-color-dark: #333333;
+    --card-color-light: var(--color-light);
+    --card-color-dark: var(--color-dark);
+    --card-margin: 10px;
+    --card-padding: 25px;
+    --card-shadows-color: rgba(0, 0, 0, .1); /* Subtle shadow */
+    --card-border-radius: 20px; /* Rounded corners */
+    --icon-width: 50px;  /* Adjusted size */
+    --icon-height: 45px; /* Adjusted size */
+    --name-color-light: var(--color-light);
+    --name-color-dark: var(--color-dark);
+    --scrollbar-width: 10px;
+    --scrollbar-trumb-background-color-light: rgba(0, 0, 0, .1);
+    --scrollbar-trumb-background-color-dark: rgba(255, 255, 255, .1);
+    --scrollbar-trumb-background-color-hover-light: rgba(0, 0, 0, .1);
+    --scrollbar-trumb-background-color-hover-dark: rgba(255, 255, 255, .1);
+}
+
+/* ScrollBar */
+::-webkit-scrollbar {
+    width: var(--scrollbar-width);
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 7px;
+    background-color: var(--scrollbar-trumb-background-color-light);
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: var(--scrollbar-trumb-background-color-hover-light);
+}
+
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 300px; /* Fixed width */
+    height: 400px; /* Adjusted height */
+    background-color: var(--body-background-color-light);
+    background-attachment: fixed; /* Ensure gradient doesn't break when scrolling */
+    overflow: hidden; /* Remove scrollbars and overlays */
+    color: var(--color-light);
+}
+
+body.dark-theme {
+    background-color: var(--body-background-color-dark);
+    color: var(--color-dark);
+}
+
+body.light-theme {
+    background-color: #212121;
+    color: var(--color-light);
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: var(--body-background-color-dark);
+        color: var(--color-dark);
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background-color: var(--scrollbar-trumb-background-color-dark);
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+        background-color: var(--scrollbar-trumb-background-color-hover-dark);
+    }
+}
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+    border: none;
+    background: none;
+    position: relative;
+    z-index: 3; /* Ensure header is above the cards */
+    margin-bottom: 0; /* Remove margin at the bottom */
+}
+
+header:hover .dropdown,
+.dropdown:hover {
+    display: block; /* Display dropdown on hover */
+}
+
+.featured-title {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 20px;
+    margin-bottom: 0; /* Remove margin at the bottom */
+    position: relative;
+    background-color: transparent;
+}
+
+.featured-icon {
+    width: 38px;
+    height: 40px;
+    margin-right: 20px;
+}
+
+.dropdown {
+    display: none; /* Hide dropdown by default */
+    position: absolute;
+    top: 100%; /* Position below the header */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: transparent;
+    border-radius: 20px;
+    box-shadow: none;
+    z-index: 1;
+    padding: 10px;
+    width: auto;
+    font-size: 0.85em;
+}
+
+.cluster.wrapper {
+    max-width: var(--cluster-width);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0px auto;
+    padding-top: 2px; /* Remove padding at the top */
+    grid-gap: 10px;
+    z-index: 2; /* Ensure cards are below the header */
+}
+
+.cluster .card {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    width: 275px; /* Adjust the card width slightly */
+    background-color: rgba(255, 255, 255, .2);
+    backdrop-filter: none;
+    border-radius: 20px;
+    box-shadow: 0 0 3px 0 var(--card-shadows-color);
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    z-index: 1; /* Ensure cards are below the header */
+}
+
+.cluster .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px 0 var(--card-shadows-color);
+    z-index: 2; /* Ensure cards are below the header */
+}
+
+/* Dark theme */
+@media (prefers-color-scheme: dark) {
+    .featured-title {
+        background-color: transparent;
+    }
+
+    .dropdown {
+        background-color: transparent;
+    }
+}
+/* Стиль для тега <p> */
+footer p {
+    color: var(--color);
+    backdrop-filter: blur(2px);
+    padding: 5px;
+    border-radius: 10px;
+}
+.dropdown {
+    display: none; /* Hide dropdown by default */
+    position: absolute; /* Position dropdown */
+    top: 100%; /* Position below the title */
+    left: 0; /* Align to left */
+    background-color: #ffffff; /* Background color for dropdown */
+    border-radius: 20px; /* Rounded corners */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.0); /* Subtle shadow */
+    z-index: 1; /* Ensure dropdown is above other content */
+    padding: 10px;
+    width: auto; /* Adaptive width */
+}
+
+.featured-title:hover .dropdown,
+.dropdown:hover {
+    display: block; /* Keep dropdown visible on hover */
+}
+
+.dropdown > button {
+    height: 35px; /* Larger height for better readability */
+    border-radius: 20px; /* Rounded corners matching cards */
+    box-shadow: none; /* Remove shadow */
+    padding: 8px 12px; /* Increased padding */
+    text-transform: uppercase;
+    font-family: 'Arial', sans-serif; /* Changed font */
+    font-weight: 600; /* Reduced weight */
+    font-size: 0.85em; /* Slightly larger font size */
+    cursor: pointer;
+    border: none;
+    background-color: #d2cdcd;
+    color: #000000; /* Text color for contrast */
+    white-space: nowrap; /* Prevent text from wrapping */
+    margin: 5px; /* Space between buttons */
+    width: calc(100% - 8px); /* Fit buttons within dropdown */
+}
+a {
+    color: #8c8c8c;
+    text-decoration: none;
+}
+
+.cluster {
+    max-width: var(--cluster-width);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    grid-gap: 10px;
+    overflow-y: auto; /* Allow vertical scrolling */
+    height: calc(100% - 80px); /* Adjust height to fit 5 cards with a scrollbar */
+    padding-top: 20px; /* Space to avoid overlap */
+    padding-bottom: 20px; /* Space to avoid overlap */
+    background: none; /* Unified background color */
+    border: none; /* Remove border to unify look */
+    box-shadow: none; /* Remove shadow */
+}
+
+.cluster .card {
+    position: relative; /* Положение относительно родительского элемента */
+    background-color: rgba(255, 255, 255, 0.2); /* Цвет фона карточки */
+    border-radius: 16px; /* Радиус закругления для карточки */
+    padding: 10px;
+    width: 270px; /* Размер карточки */
+    box-shadow: 0 0 3px 0 var(--card-shadows-color); /* Тень карточки */
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    z-index: 1; /* Визуальный порядок для наведения */
+}
+
+.cluster .card::before {
+    content: ''; /* Псевдоэлемент для рамки */
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 16px; /* Радиус закругления */
+    padding: 3px; /* Пространство для градиентной рамки */
+    background: linear-gradient(90deg, rgb(66, 133, 244) 70%, rgb(52, 168, 83) 0) top / 100% 45% no-repeat,
+                linear-gradient(90deg, rgb(66, 133, 244) 70%, rgb(251, 188, 4) 0) top / 100% 75% no-repeat,
+                linear-gradient(90deg, rgb(234, 67, 53) 70%, rgb(251, 188, 4) 0) top / 100% 100% no-repeat;
+    -webkit-mask:
+        linear-gradient(#fff 0 0) content-box,
+        linear-gradient(#fff 0 0); /* Белая маска для внутренней области */
+    -webkit-mask-composite: xor; /* Перекрытие маски */
+    mask-composite: exclude; /* Перекрытие маски */
+    box-sizing: border-box; /* Включение padding в размер элемента */
+    z-index: -1; /* Псевдоэлемент находится ниже карточки */
+}
+
+.cluster .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px 0 var(--card-shadows-color);
+}
+
+
+.icon {
+    width: var(--icon-width);
+    height: var(--icon-height);
+    max-width: 50px;
+    max-height: 45px;
+    margin-right: 0px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.name-container {
+    flex-grow: 1;
+    margin-left: 10px;
+    max-width: 200px;
+    max-height: 65px;
+}
+
+.name {
+    font-size: 1.2em; /* Increased font size */
+    font-weight: 900; /* Bolder font */
+    color: var(--color);
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.category {
+    color: gray;
+    font-size: 1em; /* Slightly reduced font size */
+    margin-top: 6px;
+    text-align: left;
+}
+
+@media (orientation: portrait) {
+    .card { width: 100%; }
+}
+
+@keyframes card {
+    from { box-shadow: 0 0 2px 0 var(--card-shadows-color); }
+    to { box-shadow: 0 0 20px 0 var(--card-shadows-color); }
+}
+
+/* Dark theme */
+@media (prefers-color-scheme: dark) {
+    .name {
+        color: var(--name-color-dark);
+    }
+
+    .cluster .card {
+        background-color: rgba(51, 51, 51, .2);
+    }
+
+    header > div > button {
+        background-color: var(--body-background-color-dark);
+    }
+}
+
+footer {
+    text-align: center;
+}
+/* Dropdown Styling */
+.dropdown {
+    display: none; /* Hide dropdown by default */
+    position: absolute; /* Position dropdown */
+    top: 100%; /* Position below the title */
+    left: 8%; /* Align to center */
+    transform: translateX(0%); /* Center align the dropdown */
+    background-color: transparent; /* Fully transparent */
+    border-radius: 20px; /* Rounded corners */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0); /* Remove shadow */
+    z-index: 1; /* Ensure dropdown is above other content */
+    padding: 10px;
+    width: auto; /* Adaptive width */
+    font-size: 0.85em; /* Adjusted font size */
+}
+
+
+/* Dark theme */
+@media (prefers-color-scheme: dark) {
+    .dropdown {
+        background-color: transparent; /* Fully transparent */
+    }
+}
+
+.featured-title {
+    font-size: 1.8em; /* Larger font size */
+    font-weight: bold;
+    text-align: center;
+    color: #686868;
+    display: flex;
+}
+
+.featured-title span {
+    font-size: 0.8em; /* Size for the span element */
+}
+
+     /* Align to left */
+    margin-left: 20px; /* Left margin for red line effect */
+    margin-bottom: 5px;
+    position: relative; /* Needed for dropdown */
+    background-color: transparent; /* Fully transparent */
+}
+
+/* Ensure header's position relative to the screen */
+header {
+    position: relative;
+}
+
+/* Ensure the dropdown aligns to the right side */
+.dropdown-menu-right {
+    right: 0;
+}
+.hidden {
+    display: none;
+}
+
+.header:hover .dropdown {
+    display: block;
+}
+.dropdown > button {
+    position: relative; /* Положение относительно родительского элемента */
+    height: 35px; /* Высота кнопки */
+    border-radius: 16px; /* Закругленные углы, совпадающие с карточками */
+    box-shadow: none; /* Убрать тень */
+    padding: 8px 12px; /* Отступы */
+    text-transform: uppercase;
+    font-family: 'Arial', sans-serif; /* Шрифт */
+    font-weight: 600; /* Толщина шрифта */
+    font-size: 0.85em; /* Размер шрифта */
+    cursor: pointer;
+    border: none;
+    background-color: #d2cdcd;
+    color: #000000; /* Цвет текста */
+    white-space: nowrap; /* Запрет на перенос текста */
+    margin: 5px; /* Отступы между кнопками */
+    width: calc(100% - 8px); /* Ширина кнопок */
+    z-index: 1; /* Визуальный порядок для наведения */
+}
+
+.dropdown > button::before {
+    content: ''; /* Псевдоэлемент для рамки */
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 16px; /* Радиус закругления как у кнопки */
+    padding: 3px; /* Пространство для градиентной рамки */
+    background: linear-gradient(90deg, rgb(66, 133, 244) 70%, rgb(52, 168, 83) 0) top / 100% 45% no-repeat,
+                linear-gradient(90deg, rgb(66, 133, 244) 70%, rgb(251, 188, 4) 0) top / 100% 75% no-repeat,
+                linear-gradient(90deg, rgb(234, 67, 53) 70%, rgb(251, 188, 4) 0) top / 100% 100% no-repeat;
+    -webkit-mask:
+        linear-gradient(#fff 0 0) content-box,
+        linear-gradient(#fff 0 0); /* Белая маска для внутренней области */
+    -webkit-mask-composite: xor; /* Перекрытие маски */
+    mask-composite: exclude; /* Перекрытие маски */
+    box-sizing: border-box; /* Включение padding в размер элемента */
+    z-index: -1; /* Псевдоэлемент находится ниже кнопки */
+}
+
+.dropdown > button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px 0 var(--card-shadows-color);
+}

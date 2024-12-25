@@ -1,0 +1,806 @@
+{
+   "24HForecast": {
+      "message": "24H Forecast"
+   },
+   "CloudWallpaper": {
+      "message": "Cloud"
+   },
+   "Font": {
+      "message": "Font"
+   },
+   "ImageLink": {
+      "message": "Image Link"
+   },
+   "ImageURL": {
+      "message": "Image URL"
+   },
+   "Input": {
+      "message": "Input"
+   },
+   "Interface": {
+      "message": "Interface"
+   },
+   "LocalImages": {
+      "message": "Local Images"
+   },
+   "LoginToUse": {
+      "message": "Login to use"
+   },
+   "Preview": {
+      "message": "Preview"
+   },
+   "Processing": {
+      "message": "Processing..."
+   },
+   "UploadDeleteFailure": {
+      "message": "Failed to delete wallpaper"
+   },
+   "UploadExceedFailure": {
+      "message": "The number of uploads exceeds the limit"
+   },
+   "UploadImageFailure": {
+      "message": "Failed to upload image"
+   },
+   "UploadInitFailure": {
+      "message": "Initial upload failure"
+   },
+   "UploadSyncFailure": {
+      "message": "Failed to sync wallpapers"
+   },
+   "aWord": {
+      "message": "Nice Words"
+   },
+   "aWordSwitchDesc": {
+      "message": "A beautiful sentence every day to make you love life more."
+   },
+   "about": {
+      "message": "About"
+   },
+   "add": {
+      "message": "Add"
+   },
+   "addCustomDesc": {
+      "message": "After entering the URL, the website name and icon will be automatically obtained, and individual websites or foreign websites may not be successfully obtained."
+   },
+   "addIcon": {
+      "message": "AddIcon"
+   },
+   "addNote": {
+      "message": "Add Note"
+   },
+   "addSearchNullInfo": {
+      "message": "There is Name or URL"
+   },
+   "addSearchRuleInfo": {
+      "message": "Please include a placeholder {S} in the URL"
+   },
+   "addSuccess": {
+      "message": "Add Success"
+   },
+   "addTodo": {
+      "message": "Add"
+   },
+   "addUrl": {
+      "message": "Add Website"
+   },
+   "all": {
+      "message": "ALL"
+   },
+   "background": {
+      "message": "Background"
+   },
+   "backupDesc": {
+      "message": "We keep up to five nodes for you, only manual backups will keep historical nodes"
+   },
+   "backupNow": {
+      "message": "Backup now"
+   },
+   "backupSuccess": {
+      "message": "Success!"
+   },
+   "backupTitle": {
+      "message": "Historical Backup Node"
+   },
+   "backupsBtn": {
+      "message": "Backup now"
+   },
+   "bgCenter": {
+      "message": "Wallpaper Center"
+   },
+   "bgColor": {
+      "message": "Background Color"
+   },
+   "bgSetting": {
+      "message": "Wallpaper"
+   },
+   "bookmarks": {
+      "message": "Bookmark Manage"
+   },
+   "bookmarksBar": {
+      "message": "Bookmarks"
+   },
+   "bottomBar": {
+      "message": "Bottom Navigation"
+   },
+   "bottomIcons": {
+      "message": "Bottom Navigation"
+   },
+   "bottomIconsLen": {
+      "message": "Quantity"
+   },
+   "bottomIconsSize": {
+      "message": "Size Zoom"
+   },
+   "calendar": {
+      "message": "Calendar"
+   },
+   "calendarSwitchDesc": {
+      "message": "Support for inquiring about the lunar calendar, holidays, etc."
+   },
+   "cancel": {
+      "message": "Cancel"
+   },
+   "clickMoreInfo": {
+      "message": "Do not click frequently!"
+   },
+   "colorTheme": {
+      "message": "Color scheme"
+   },
+   "columnGap": {
+      "message": "ColumnGap"
+   },
+   "completed": {
+      "message": "Finished"
+   },
+   "confirm": {
+      "message": "OK"
+   },
+   "confirmAdd": {
+      "message": "Confirm Add"
+   },
+   "confirmDeletion": {
+      "message": "Confirm Delete?"
+   },
+   "confirmEdit": {
+      "message": "Confirm Edit"
+   },
+   "copyFailed": {
+      "message": "Copy failed"
+   },
+   "copySuccess": {
+      "message": "Copy success"
+   },
+   "custom": {
+      "message": "Custom"
+   },
+   "darkMode": {
+      "message": "Dark Mode"
+   },
+   "dateSize": {
+      "message": "Date Zoom"
+   },
+   "delSuccess": {
+      "message": "Delete Success"
+   },
+   "deleteCompleted": {
+      "message": "Delete Completed"
+   },
+   "deleteGroupInfo": {
+      "message": "This operation will delete all content under the {0} group, confirm to delete?"
+   },
+   "deleteHistory": {
+      "message": "Remove from history"
+   },
+   "description": {
+      "message": "Free to define your new tab,add website icons,HD wallpapers,quick access to bookmarks,todo list,weather and history"
+   },
+   "display": {
+      "message": "Display"
+   },
+   "displayDesc": {
+      "message": "Set icon, search bar, time and date appearance display"
+   },
+   "doneLabel": {
+      "message": "Done"
+   },
+   "downloadBar": {
+      "message": "Downloads"
+   },
+   "downloadBg": {
+      "message": "Download Wallpaper"
+   },
+   "dynamicBg": {
+      "message": "Dynamic"
+   },
+   "edgeBarSetting": {
+      "message": "Sidebar"
+   },
+   "editBackups": {
+      "message": "Manage history backups"
+   },
+   "editSuccess": {
+      "message": "Edit Success"
+   },
+   "emailInfo": {
+      "message": "Please enter your email"
+   },
+   "emailNull": {
+      "message": "Email is empty"
+   },
+   "emailRuleError": {
+      "message": "Email format error"
+   },
+   "enjoyLife": {
+      "message": "Enjoy Life"
+   },
+   "errorFile": {
+      "message": "Error File"
+   },
+   "exp": {
+      "message": "Upload"
+   },
+   "expConfigInfo": {
+      "message": "Export ConfigInfo?"
+   },
+   "expFunc": {
+      "message": "Export"
+   },
+   "ext_name": {
+      "message": "Aurora: Productive and cozy new tab"
+   },
+   "extensionBar": {
+      "message": "Extensions"
+   },
+   "fileInputClick": {
+      "message": "Click here to upload local image"
+   },
+   "filter": {
+      "message": "Blur"
+   },
+   "fiveStar": {
+      "message": "Five stars"
+   },
+   "forgetDesc": {
+      "message": "This feature will resets your password"
+   },
+   "forgetPassword": {
+      "message": "Forgot password"
+   },
+   "forgetSuccess": {
+      "message": "Successfully modified"
+   },
+   "forgetTitle": {
+      "message": "Recover Aurora password"
+   },
+   "getSuccess": {
+      "message": "Success!"
+   },
+   "getToken": {
+      "message": "Get code"
+   },
+   "goalsForToday": {
+      "message": "Goals for today"
+   },
+   "group": {
+      "message": "Group"
+   },
+   "guidanceNavigation": {
+      "message": "Quick launch application"
+   },
+   "guidanceSearch": {
+      "message": "Multiple search engines"
+   },
+   "guidanceSetting": {
+      "message": "Rich customization settings"
+   },
+   "guidanceStart": {
+      "message": "Start Now"
+   },
+   "guidanceTheme": {
+      "message": "Double click to switch themes"
+   },
+   "guidanceWallpaper": {
+      "message": "Large amount of wallpapers"
+   },
+   "haveAccount": {
+      "message": "Have an account?"
+   },
+   "height": {
+      "message": "Height"
+   },
+   "hide": {
+      "message": "Auto Hide"
+   },
+   "history": {
+      "message": "History"
+   },
+   "historyBar": {
+      "message": "History"
+   },
+   "humidity": {
+      "message": "Humidity"
+   },
+   "icon": {
+      "message": "Icon"
+   },
+   "iconAndInput": {
+      "message": "Icon & Search"
+   },
+   "iconConfig": {
+      "message": "Only System"
+   },
+   "iconMode": {
+      "message": "Icon Mode"
+   },
+   "iconPreview": {
+      "message": "Icon Preview"
+   },
+   "iconRadius": {
+      "message": "Radius"
+   },
+   "iconSetting": {
+      "message": "Icon"
+   },
+   "iconShadow": {
+      "message": "Icon Shadow"
+   },
+   "iconSize": {
+      "message": "Size"
+   },
+   "iconSysConfig": {
+      "message": "Icon & System"
+   },
+   "iconText": {
+      "message": "Icon Text"
+   },
+   "image": {
+      "message": "Image"
+   },
+   "imgUpperLimit": {
+      "message": "Upload limit reached!"
+   },
+   "imp": {
+      "message": "Important"
+   },
+   "impFunc": {
+      "message": "Import"
+   },
+   "indices": {
+      "message": "Indices"
+   },
+   "inputCityName": {
+      "message": "Enter city name"
+   },
+   "inputSetting": {
+      "message": "Search"
+   },
+   "keepAtLeastOne": {
+      "message": "Please keep at least one group!"
+   },
+   "lastUpdated": {
+      "message": "Last updated"
+   },
+   "layout": {
+      "message": "Layout"
+   },
+   "layoutBar": {
+      "message": "Layout"
+   },
+   "layoutDesc": {
+      "message": "Main view selection, sidebar adjustment"
+   },
+   "layoutSetting": {
+      "message": "Layout"
+   },
+   "layoutText": {
+      "message": "log out"
+   },
+   "left": {
+      "message": "Left"
+   },
+   "localBg": {
+      "message": "Local"
+   },
+   "locale": {
+      "message": "en"
+   },
+   "login": {
+      "message": "login"
+   },
+   "loginBtn": {
+      "message": "Log in / Regedit"
+   },
+   "loginDesc": {
+      "message": "Log in Aurora, your data will never be lost"
+   },
+   "loginError": {
+      "message": "Incorrect username or password"
+   },
+   "loginInfo": {
+      "message": "Register Aurora, your data will never be lost"
+   },
+   "loginNow": {
+      "message": "Login"
+   },
+   "loginSuccess": {
+      "message": "login successful"
+   },
+   "loginTimeout": {
+      "message": "Login failed"
+   },
+   "loginTitle": {
+      "message": "Welcome to Aurora"
+   },
+   "mainTheme": {
+      "message": "Theme"
+   },
+   "mainViewSetting": {
+      "message": "Main View"
+   },
+   "marginBottom": {
+      "message": "Bottom Space"
+   },
+   "maxWidth": {
+      "message": "MAX Width"
+   },
+   "menuDelete": {
+      "message": "Delete"
+   },
+   "menuDeleteMore": {
+      "message": "Batch Delet"
+   },
+   "menuEdit": {
+      "message": "Edit"
+   },
+   "menuOpenTab": {
+      "message": "Open in New Tab"
+   },
+   "myAccount": {
+      "message": "Account"
+   },
+   "name": {
+      "message": "Name"
+   },
+   "nameInfo": {
+      "message": "Please enter your username"
+   },
+   "nameNoneInfo": {
+      "message": "Name is Required"
+   },
+   "nameNull": {
+      "message": "Username is empty"
+   },
+   "nameRuleError": {
+      "message": "Only supports letters, numbers _- and other 2-8 characters"
+   },
+   "networkError": {
+      "message": "Network connection error"
+   },
+   "newPasswordInfo1": {
+      "message": "Please enter a new password of 6-18 digits"
+   },
+   "newTab": {
+      "message": "Open in New Tab"
+   },
+   "newTabTitle": {
+      "message": "New Tab"
+   },
+   "nextStep": {
+      "message": "Next"
+   },
+   "noAccount": {
+      "message": "Have no account?"
+   },
+   "noEmail": {
+      "message": "Invalid email!"
+   },
+   "noMoreBottom": {
+      "message": "No more"
+   },
+   "none": {
+      "message": "There is no data"
+   },
+   "note": {
+      "message": "Note"
+   },
+   "noteSwitchDesc": {
+      "message": "Add notes at any time, and can help you paste the notes on the desktop of the tab page, at a glance."
+   },
+   "offIcon": {
+      "message": "Official"
+   },
+   "opacity": {
+      "message": "Opacity"
+   },
+   "pageRefresh": {
+      "message": "Activate Page Refresh"
+   },
+   "passwordError": {
+      "message": "password is empty"
+   },
+   "passwordError2": {
+      "message": "Please confirm your password"
+   },
+   "passwordInfo": {
+      "message": "Please enter password"
+   },
+   "passwordInfo1": {
+      "message": "Please enter a 6-18 digit password"
+   },
+   "passwordInfo2": {
+      "message": "Please confirm your password"
+   },
+   "passwordRuleError": {
+      "message": "6-18 characters such as a-z A-Z 0-9 #?!@$%^&*-"
+   },
+   "passwordRuleError2": {
+      "message": "Password does not match"
+   },
+   "prevStep": {
+      "message": "Back"
+   },
+   "productFeedback": {
+      "message": "User FeedBack"
+   },
+   "radius": {
+      "message": "Radius"
+   },
+   "readSuccess": {
+      "message": "Import successful"
+   },
+   "realTime": {
+      "message": "real-time"
+   },
+   "registerDesc": {
+      "message": "Register Aurora, your data will never be lost"
+   },
+   "registerNow": {
+      "message": "Register"
+   },
+   "registerSuccess": {
+      "message": "registration success"
+   },
+   "remind": {
+      "message": "Remind"
+   },
+   "remindTitle": {
+      "message": "Aurora Remind"
+   },
+   "rencentUpdate": {
+      "message": "Recent Update"
+   },
+   "repeatEmail": {
+      "message": "This email has been registered!"
+   },
+   "repeatExpInfo": {
+      "message": "Do not re-upload!"
+   },
+   "reset": {
+      "message": "Reset"
+   },
+   "resetSetting": {
+      "message": "Restore Default"
+   },
+   "resetSuccess": {
+      "message": "Reset Success"
+   },
+   "right": {
+      "message": "Right"
+   },
+   "rowGap": {
+      "message": "RowGap"
+   },
+   "save": {
+      "message": "Save"
+   },
+   "scrollGroup": {
+      "message": "Scroll Group"
+   },
+   "search": {
+      "message": "Search"
+   },
+   "searchAddTitle": {
+      "message": "Name"
+   },
+   "searchAddTitle2": {
+      "message": "Search URL"
+   },
+   "searchBookmarks": {
+      "message": "Query Bookmark"
+   },
+   "searchEditDescInfo": {
+      "message": "Click to add your favorite search engines"
+   },
+   "searchEditDescInfo2": {
+      "message": "Add custom search engine"
+   },
+   "searchEditTitle": {
+      "message": "Add Search Engine"
+   },
+   "searchHistory": {
+      "message": "Search History"
+   },
+   "searchHolder": {
+      "message": "Please enter and search"
+   },
+   "searchNamePlaceholder": {
+      "message": "Enter search engine name"
+   },
+   "searchNone": {
+      "message": "Sorry, no search results were found"
+   },
+   "searchUrl": {
+      "message": "Search for websites to add"
+   },
+   "searchUrlPlaceholder": {
+      "message": "Please replace search terms with placeholder {S}, For Example: https://www.google.com/search?q={S}"
+   },
+   "selectDate": {
+      "message": "Please select a time"
+   },
+   "selectExpFile": {
+      "message": "Please select file to upload!"
+   },
+   "selectGroup": {
+      "message": "Select Group"
+   },
+   "setBackupError": {
+      "message": "Node is wrong!"
+   },
+   "setting": {
+      "message": "Setting"
+   },
+   "showDate": {
+      "message": "Date"
+   },
+   "showName": {
+      "message": "Name"
+   },
+   "showTime": {
+      "message": "Time"
+   },
+   "simpMode": {
+      "message": "Simple Mode"
+   },
+   "solidBg": {
+      "message": "Solid Color"
+   },
+   "solidColor": {
+      "message": "Solid color"
+   },
+   "sorry": {
+      "message": "Sorry!"
+   },
+   "sorryDesc": {
+      "message": "This type of URL is not supported!"
+   },
+   "standardMode": {
+      "message": "Standard Mode"
+   },
+   "staticBg": {
+      "message": "Static"
+   },
+   "switchBg": {
+      "message": "Change Wallpaper"
+   },
+   "sys": {
+      "message": "System"
+   },
+   "text": {
+      "message": "Text"
+   },
+   "textColor": {
+      "message": "Text Color"
+   },
+   "textShadow": {
+      "message": "Text Shadow"
+   },
+   "textSize": {
+      "message": "Text Size"
+   },
+   "timeDateSetting": {
+      "message": "Date & Time"
+   },
+   "timeSize": {
+      "message": "Time Zoom"
+   },
+   "title": {
+      "message": "Title"
+   },
+   "todo": {
+      "message": "To Do"
+   },
+   "todoDesc": {
+      "message": "Please enter content"
+   },
+   "todoSwitchDesc": {
+      "message": "Organize your tasks in order to make it easier to plan each day."
+   },
+   "tokenError": {
+      "message": "Invalid verification code"
+   },
+   "tokenInfo": {
+      "message": "Please enter 6 digit email verification code"
+   },
+   "tokenNull": {
+      "message": "Verification code is empty"
+   },
+   "tokenRuleError": {
+      "message": "Incorrect format of verification code"
+   },
+   "unCompleted": {
+      "message": "Unfinished"
+   },
+   "url": {
+      "message": "Website"
+   },
+   "urlMoreInfo": {
+      "message": "More from this site"
+   },
+   "urlNameNoneInfo": {
+      "message": "URL and Name cannot be blank"
+   },
+   "urlNone": {
+      "message": "URL cannot be empty"
+   },
+   "useBackup": {
+      "message": "recover this node"
+   },
+   "user": {
+      "message": "Account"
+   },
+   "userDesc": {
+      "message": "Register and log in account, backup data"
+   },
+   "userFeedback": {
+      "message": "User Reviews"
+   },
+   "userFeedbackDesc": {
+      "message": "If you like Aurora's new tabs, please rate me or give me feedback to help me optimize them."
+   },
+   "visibility": {
+      "message": "Visibility"
+   },
+   "wallpaper": {
+      "message": "Wallpaper"
+   },
+   "wallpaperDesc": {
+      "message": "Choose your favorite wallpaper and style it"
+   },
+   "wallpaperSwitch": {
+      "message": "Automatic Switch"
+   },
+   "wallpaperSwitch12Hour": {
+      "message": "Switch every 12 hours"
+   },
+   "wallpaperSwitch1Hour": {
+      "message": "Switch every 1 hours"
+   },
+   "wallpaperSwitch24Hour": {
+      "message": "Switch every 24 hours"
+   },
+   "wallpaperSwitch2Hour": {
+      "message": "Switch every 2 hours"
+   },
+   "wallpaperSwitch6Hour": {
+      "message": "Switch every 6 hours"
+   },
+   "wallpaperSwitchNone": {
+      "message": "No automatic switch"
+   },
+   "weather": {
+      "message": "Weather"
+   },
+   "weatherSwitchDesc": {
+      "message": "Provide you with weather forecast covering cities around the world, reminding you to respond to weather changes in time."
+   },
+   "widget": {
+      "message": "Widget"
+   },
+   "widgetDesc": {
+      "message": "Common widget can be added at will"
+   },
+   "width": {
+      "message": "Width"
+   }
+}
